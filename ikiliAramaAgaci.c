@@ -10,7 +10,7 @@ struct Dugum //bagli liste yapisi
 { 
 	int veri; 
 	struct Dugum *sol;
-    struct Dugum *sag; 
+        struct Dugum *sag; 
 }; 
 
 struct Dugum *yeniDugum(int item) 
